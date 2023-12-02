@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.qrcode {
+    background: #dfe1ef;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 15px;
+}
+
+.qrcode__form {
+    border-radius: 14px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 330px;
+    padding: 20px;
+
+    &-img {
+        border-radius: 14px;
+        width: 100%;
+    }
+
+    &-title {
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    &-subtitle {
+        font-size: 18px;
+        text-align: center;
+    }
+
+}
